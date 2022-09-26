@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+  <div class="container">
+   
+    <span id="title">Calc</span>
+      
+
+    <div class="right-item">
+      <span>THEME</span>
+      <div id="buttonContainer">
+        <div class="redButton"></div>
+      </div>
+      <div id="textContainer">
+        <div class="legendText" onclick="theme1()">1</div>
+        <div class="legendText" onclick="theme2()">2</div>
+        <div class="legendText" onclick="theme3()">3</div>
+      </div>
+    </div>
+    <div>
+      <form action="">
+        <input type="text" class="screen" name="" id="input">
+      </form>
+    </div>
+    <div class="cal-grid">
+      <div class="button" data-item = "7">7</div>
+      <div class="button" data-item = "8">8</div>
+      <div class="button" data-item = "9">9</div>
+      <div class="del-button">del</div>
+      <div class="button" data-item = "4">4</div>
+      <div class="button" data-item = "5">5</div>
+      <div class="button" data-item = "6">6</div>
+      <div class="button" data-item = "+">+</div>
+      <div class="button" data-item = "1">1</div>
+      <div class="button" data-item = "2">2</div>
+      <div class="button" data-item = "3">3</div>
+      <div class="button" data-item = "-">-</div>
+      <div class="button" data-item = ".">.</div>
+      <div class="button" data-item = "0">0</div>
+      <div class="button" data-item = "/">/</div>
+      <div class="button" data-item = "*">*</div>
+      <div class="reset-button">Reset</div>
+      <div class="equal-button">=</div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+
+
+
+
+
+  
+ 
+  <script src="app.js"></script>
+</body>
+</html>
